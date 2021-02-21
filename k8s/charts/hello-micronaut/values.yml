@@ -1,0 +1,13 @@
+name: hello-micronaut
+
+deployment:
+
+  replicas: 1
+  image: lgorissen/hello-micronaut:1.0.0
+  imagePullPolicy: Always
+  containerPort: 8090
+  greeting: Welcome 
+  location: on Terra10-micronaut
+
+service:
+   port: 8020

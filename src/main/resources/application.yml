@@ -1,0 +1,8 @@
+micronaut:
+  server:
+    port: 8090
+  application:
+    name: helloMicronaut
+hello:
+  greeting: Hello
+  location: development world
